@@ -13,6 +13,13 @@ export default function Form(){
                   placeholder='Enter Your Email'
                 />
             </div>
+            <div>
+                <label>Password</label>
+                <input
+                  className=''
+                  placeholder='Enter Your Password'
+                />
+            </div>
         </div>
     </div>
     ); 
