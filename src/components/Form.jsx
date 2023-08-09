@@ -5,6 +5,11 @@ export default function Form(){
     <div>
         <h1>Welcome Back!</h1>
         <p>Please Enter Your Details.</p>
+        <div>
+            <div>
+                <label>Email</label>
+            </div>
+        </div>
     </div>
     ); 
 }
