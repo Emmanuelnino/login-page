@@ -2,21 +2,22 @@ import * as React from 'react';
 
 export default function Form(){
     return (
-    <div>
-        <h1>Welcome Back!</h1>
-        <p>Please Enter Your Details.</p>
-        <div>
+    <div className='bg-white rounded-3xl px-10 py-20 border-2 border-gray-200'>
+        <h1 className='text-5xl font-semibold'>Welcome Back!</h1>
+        <p className='font-medium text-lg text-gray-500 mt-4'>Please Enter Your Details.</p>
+        <div className='mt-8'>
             <div>
-                <label>Email</label>
+                <label
+                className='text-lg font-medium'>Email</label>
                 <input
-                  className=''
+                  className='w-full border-2 border-gray-100 rounded-xl p-4 mt-1 bg-transparent'
                   placeholder='Enter Your Email'
                 />
             </div>
             <div>
-                <label>Password</label>
+                <label className='text-lg font-medium'>Password</label>
                 <input
-                  className=''
+                  className='w-full border-2 border-gray-100 rounded-xl p-4 mt-1 bg-transparent'
                   placeholder='Enter Your Password'
                   type='Password'
                 />
@@ -31,6 +32,7 @@ export default function Form(){
                     />
                     <label for="Remember">Remember For 30 Days</label>
                 </div>
+                <button>Forgot Password </button>
             </div>
         </div>
     </div>
