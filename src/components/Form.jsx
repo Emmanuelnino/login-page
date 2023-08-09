@@ -8,6 +8,10 @@ export default function Form(){
         <div>
             <div>
                 <label>Email</label>
+                <input
+                  className=''
+                  placeholder='Enter Your Email'
+                />
             </div>
         </div>
     </div>
