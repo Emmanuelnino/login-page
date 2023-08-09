@@ -22,7 +22,7 @@ export default function Form(){
                   type='Password'
                 />
             </div>
-            <div>
+            <div className='mt-8 flex justify-between items-center'>
                 <div>
                     <input
 
@@ -30,9 +30,9 @@ export default function Form(){
                     id='remember'
 
                     />
-                    <label for="Remember">Remember For 30 Days</label>
+                    <label className="ml-2 font-medium text-base" for="Remember">Remember For 30 Days</label>
                 </div>
-                <button>Forgot Password </button>
+                <button className='font-medium text-base text-vioet-500'>Forgot Password </button>
             </div>
         </div>
     </div>
