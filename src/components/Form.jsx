@@ -18,7 +18,19 @@ export default function Form(){
                 <input
                   className=''
                   placeholder='Enter Your Password'
+                  type='Password'
                 />
+            </div>
+            <div>
+                <div>
+                    <input
+
+                    type="checkbox"
+                    id='remember'
+
+                    />
+                    <label for="Remember">Remember For 30 Days</label>
+                </div>
             </div>
         </div>
     </div>
