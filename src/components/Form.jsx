@@ -17,7 +17,7 @@ export default function Form(){
             <div>
                 <label className='text-lg font-medium'>Password</label>
                 <input
-                  className='w-full border-2 border-gray-100 rounded-x2 p-4 mt-1 bg-transparent'
+                  className='w-full border-2 border-gray-100 rounded-xl p-4 mt-1 bg-transparent'
                   placeholder='Enter Your Password'
                   type='Password'
                 />
