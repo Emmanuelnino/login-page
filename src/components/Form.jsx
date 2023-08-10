@@ -3,7 +3,8 @@ import * as React from 'react';
 export default function Form(){
     return (
     <div className='bg-white rounded-3xl px-10 py-20 border-2 border-gray-200'>
-        <h1 className='text-5xl font-semibold'>Welcome <span className='text-violet-500'>Back!</span></h1>
+        <h1 className='text-4xl font-semibold'>Hey There,</h1>
+        <h1 className='text-4xl font-semibold mt-4'>Welcome <span className='text-violet-500'>Back!</span></h1>
         <p className='font-medium text-lg text-gray-500 mt-4'>Please Enter Your Details.</p>
         <div className='mt-8'>
             <div>
