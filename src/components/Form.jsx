@@ -50,7 +50,7 @@ export default function Form() {
                         </svg>
                         Sign Up With Google</button>
                 </div>
-                <div className=''>
+                <div className='flex flex-col items-center'>
                 <p>Don't have an account?</p>
                 <button>Sign up</button>
                 </div>
