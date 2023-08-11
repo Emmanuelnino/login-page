@@ -51,7 +51,7 @@ export default function Form() {
                         Sign Up With Google</button>
                 </div>
                 <div className='mt-8 flex flex-col items-center gap-10'>
-                <p>Don't have an account?</p>
+                <p className='font-medium text-base'>Don't have an account?</p>
                 <button>Sign up</button>
                 </div>
             </div>
