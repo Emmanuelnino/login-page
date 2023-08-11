@@ -50,6 +50,9 @@ export default function Form() {
                         </svg>
                         Sign Up With Google</button>
                 </div>
+                <div>
+                    
+                </div>
             </div>
         </div>
     );
