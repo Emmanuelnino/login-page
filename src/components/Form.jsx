@@ -31,7 +31,7 @@ export default function Form() {
                             id='remember'
 
                         />
-                        <label className="ml-10 font-medium text-base" for="Remember">Remember For 30 Days</label>
+                        <label className="ml-2 font-medium text-base" for="Remember">Remember For 30 Days</label>
                     </div>
                     <button className='font-medium text-base text-violet-500'>Forgot Password </button>
 
