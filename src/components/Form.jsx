@@ -33,7 +33,7 @@ export default function Form() {
                         />
                         <label className="ml-2 font-medium text-base" for="Remember">Remember For 30 Days</label>
                     </div>
-                    <button className='font-medium text-base text-violet-500'>Forgot Password </button>
+                    <button className='ml-2 font-medium text-base text-violet-500'>Forgot Password </button>
 
                 </div>
                 <div className='mt-8 flex flex-col gap-y-4'>
@@ -50,9 +50,9 @@ export default function Form() {
                         </svg>
                         Sign Up With Google</button>
                 </div>
-                <div className='mt-8 flex flex-col items-center gap-10'>
+                <div className='mt-8 flex items-center'>
                 <p className='font-medium text-base'>Don't have an account?</p>
-                <button>Sign up</button>
+                <button className='text-violet-500 text-base font-medium ml-2'>Sign up</button>
                 </div>
             </div>
         </div>
