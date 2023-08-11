@@ -33,12 +33,12 @@ export default function Form() {
                         />
                         <label className="ml-2 font-medium text-base" for="Remember">Remember For 30 Days</label>
                     </div>
-                    <button className=' font-medium text-base text-violet-500'>Forgot Password </button>
+                    <button className='font-medium text-base text-violet-500'>Forgot Password </button>
 
                 </div>
                 <div className='mt-8 flex flex-col gap-y-4'>
-                    <button className='active:duration-75 transition-all py-3 rounded-xl bg-violet-500 text-white text-lg font-bold'>Sign Up</button>
-                    <button className='flex justify-center items-center gap-2'>
+                    <button className='active:scale-[.98] active:duration-75 hover:scale-[1.01] ease-in-out transition-all py-3 rounded-xl bg-violet-500 text-white text-lg font-bold'>Sign Up</button>
+                    <button className='py-3 border-2 border-gray-100 flex justify-center items-center gap-2 transition-all'>
                         <svg
                             viewBox="0 0 1024 1024"
                             fill="currentColor"
