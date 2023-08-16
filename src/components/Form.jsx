@@ -33,7 +33,7 @@ export default function Form() {
                         />
                         <label className="ml-2 font-medium text-base" for="Remember">Remember For 30 Days</label>
                     </div>
-                    <button className='ml-2 font-medium text-base text-violet-500'>Forgot Password </button>
+                    <button className='ml-2 font-medium text-base text-[#fcaa4e]'>Forgot Password </button>
 
                 </div>
                 <div className='mt-8 flex flex-col gap-y-4'>
