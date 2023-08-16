@@ -2,6 +2,7 @@ import * as React from 'react';
 
 export default function Form() {
     return (
+        <section style={{backgroundImage:`url(https://images.pexels.com/photos/935985/pexels-photo-935985.jpeg?auto=compress&cs=tinysrgb&w=600)`}} className='min-h-screen justify-center items-center h-full w-full bg-cover bg-center bg-no-repeat flex text-white'>
         <div className='bg-white rounded-3xl px-10 py-20 border-2 border-gray-200'>
             <h1 className='text-4xl font-semibold'>Hey There,</h1>
             <h1 className='text-4xl font-semibold mt-4'>Welcome Back!</h1>
@@ -56,5 +57,6 @@ export default function Form() {
                 </div>
             </div>
         </div>
+        </section>
     );
 }
