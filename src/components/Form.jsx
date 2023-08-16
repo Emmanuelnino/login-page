@@ -37,7 +37,7 @@ export default function Form() {
 
                 </div>
                 <div className='mt-8 flex flex-col gap-y-4'>
-                    <button className='active:scale-[.98] active:duration-75 hover:scale-[1.01] ease-in-out transition-all py-3 rounded-xl bg-violet-500 text-white text-lg font-bold'>Sign Up</button>
+                    <button className='active:scale-[.98] active:duration-75 hover:scale-[1.01] ease-in-out transition-all py-3 rounded-xl bg-[#fcaa4e] text-white text-lg font-bold'>Sign Up</button>
                     <button className='py-3 border-2 border-gray-100 flex justify-center items-center gap-2 rounded-xl active:scale-[.98] active:duration-75 hover:scale-[1.01] ease-in-out transition-all'>
                         <svg
                             viewBox="0 0 1024 1024"
@@ -52,7 +52,7 @@ export default function Form() {
                 </div>
                 <div className='mt-8 flex items-center'>
                 <p className='font-medium text-base'>Don't have an account?</p>
-                <button className='text-violet-500 text-base font-medium ml-2'>Sign up</button>
+                <button className='text-[#fcaa4e] text-base font-medium ml-2'>Sign up</button>
                 </div>
             </div>
         </div>
